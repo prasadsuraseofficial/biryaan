@@ -14,7 +14,7 @@ function Home() {
           products.map((product, i) => {
             return (
               <div className="flex flex-col items-center gap-5" key={i}>
-                <div className="mt-5 bg-blue-100 text-green-800 font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-green-400 ">
+                <div className="mt-10 bg-blue-100 text-green-800 font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-green-400 ">
                   <h1 className="text-4xl max-md:text-2xl font-bold uppercase">
                     {product.sectionHeading}
                   </h1>
