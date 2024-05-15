@@ -23,7 +23,7 @@ const ProductPreview = ({ products }) => {
           {products.map((product) => (
             <button
               key={product.title}
-              className={`font-bold text-sm mr-2 p-2 max-md:p-1 rounded-lg ${
+              className={`mr-2 p-2 max-md:p-1 max-md:text-xs text-sm font-medium rounded ${
                 selectedProduct.title === product.title
                   ? "bg-black text-white"
                   : "bg-gray-200 text-gray-800"

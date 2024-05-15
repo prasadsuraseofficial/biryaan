@@ -15,18 +15,15 @@ export default function Header() {
           </Link>
         </div>
 
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Popover.Group className="hidden lg:flex lg:gap-x-12">
-            <Link to="/" className="font-semibold leading-6 text-white">
-              Home
-            </Link>
-            <Link
-              to="/franchise"
-              className="font-semibold leading-6 text-white"
-            >
-              Franchise
-            </Link>
-          </Popover.Group>
+        <div className="flex gap-5 lg:gap-x-12">
+          {/* <Popover.Group className="hidden lg:flex lg:gap-x-12"> */}
+          <Link to="/" className="font-semibold leading-6 text-white">
+            Home
+          </Link>
+          <Link to="/franchise" className="font-semibold leading-6 text-white">
+            Franchise
+          </Link>
+          {/* </Popover.Group> */}
         </div>
       </nav>
     </header>
