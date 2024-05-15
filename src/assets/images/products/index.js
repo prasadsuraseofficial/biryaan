@@ -1,0 +1,11 @@
+export { default as ButterMilk } from "./butter-milk.png";
+export { default as ChickenTikka } from "./chicken-tikka.png";
+export { default as GulabJamun } from "./gulabjamun.png";
+export { default as GulabJamunOne } from "./gulabjamun-one.png";
+export { default as HyderabadiChicken } from "./hyderabadi-chicken.png";
+export { default as HyderabadiVeg } from "./hyderabadi-veg.png";
+export { default as LucknowiChicken } from "./lucknowi-chicken.png";
+export { default as PaneerBiryani } from "./paneer-biryani.png";
+export { default as PaneerTikka } from "./paneer-tikka.png";
+export { default as ShahiChicken } from "./shahi-chicken.png";
+export { default as ShahiVeg } from "./shahi-veg.png";

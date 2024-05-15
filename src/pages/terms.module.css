@@ -1,0 +1,9 @@
+.termsContainer h5 {
+  font-weight: bold;
+  line-height: 3;
+  margin-top: 1rem;
+}
+
+.termsContainer p {
+  line-height: 2;
+}
