@@ -6,6 +6,15 @@
 
 *,
 html,
+head,
 body {
   font-family: "Philosopher", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden !important; */
+}
+
+a:active {
+  color: #e9c146 !important;
 }

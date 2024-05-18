@@ -2,7 +2,6 @@ import {
   ButterMilk,
   ChickenTikka,
   GulabJamun,
-  GulabJamunOne,
   HyderabadiChicken,
   HyderabadiVeg,
   LucknowiChicken,
@@ -20,25 +19,29 @@ export const products = [
         title: "Hyd. Paneer Subz Dum",
         image: HyderabadiVeg,
         description:
-          "Delicious and aromatic Hyderabadi paneer subz dum biryani, cooked to perfection.",
+          "Inspired by the Hyderabadi Style, loaded with fresh crispy vegetables (green peas, soya chunks, beans, carrots, paneer), marinated in Biryaan's Signature Spice Mix and layered with premium long grain basmati rice.",
+        price: { small: 117, half: 177, full: 227 },
       },
       {
         title: "Paneer Dum",
         image: PaneerBiryani,
         description:
-          "Scrumptious paneer dum biryani with layers of fragrant rice and tender paneer pieces.",
+          "Paneer Dum Biryani is loaded with soft, crumbly and fresh paneer, marinated in Biryaan's Signature Spice Mix and layered with premium long grain basmati rice.",
+        price: { small: 137, half: 197, full: 257 },
       },
       {
         title: "Shahi Veg Dum",
         image: ShahiVeg,
         description:
-          "Exquisite Shahi veg dum biryani infused with rich flavors and royal spices.",
+          "Shahi Veg Dum Biryani followed by fresh vegetables (green peas, soya chunks, beans, carrots) marinated in Biryaan's Signature Spice Mix, layered by pure ghee, golden fried onions and cashews with premium long grain basmati rice.",
+        price: { small: 127, half: 187, full: 237 },
       },
       {
         title: "Paneer Tikka Biryani",
         image: PaneerTikka,
         description:
-          "Savor the taste of grilled paneer tikka combined with aromatic biryani rice in this delightful dish.",
+          "Paneer Tikka Biryani inspired by tandoori tikka paneer which has smokey flavour and marinated in Biryaan's Signature Spice Mix, layered by butter, golden fried onions with premium long grain basmati rice.",
+        price: { full: 267 },
       },
     ],
   },
@@ -49,25 +52,29 @@ export const products = [
         title: "Hyderabadi Chicken Dum",
         image: HyderabadiChicken,
         description:
-          "Indulge in the authentic flavors of Hyderabadi chicken dum biryani, cooked with tender chicken pieces and fragrant spices.",
+          "Inspired by the Hyderabadi Style, fresh juicy chicken marinated in Biryaan's Signature Spice Mix and layered with premium long grain basmati rice.",
+        price: { small: 147, half: 217, full: 267 },
       },
       {
         title: "Shahi Chicken Dum",
         image: ShahiChicken,
         description:
-          "Experience the royal taste of Shahi chicken dum biryani, crafted with premium ingredients and royal spices.",
+          "Followed by fresh juicy Chicken marinated in Biryaan's Signature Spice Mix, layered by pure ghee, golden fried onions and cashews with premium long grain basmati rice.",
+        price: { small: 157, half: 227, full: 277 },
       },
       {
         title: "Lucknowi Chicken Dum",
         image: LucknowiChicken,
         description:
-          "Treat your taste buds to the exquisite flavors of Lucknowi chicken dum biryani, cooked to perfection with Lucknowi spices.",
+          "This biryani will be loaded with flavourful ground spices with kevda water, marinated well by Biryaan's Signature Spice Mix & layered with premium long grain basmati rice.",
+        price: { small: 157, half: 227, full: 277 },
       },
       {
         title: "Chicken Tikka Biryani",
         image: ChickenTikka,
         description:
-          "Indulge in the smoky flavors of chicken tikka biryani, combining tender chicken tikka with fragrant biryani rice.",
+          "Chicken Tikka Biryani inspired by tandoori tikka chicken which have smokey flavour and marinated in Biryaan's Signature Spice Mix, layered by butter, golden fried onions with premium long grain basmati rice.",
+        price: { full: 297 },
       },
     ],
   },
@@ -78,7 +85,8 @@ export const products = [
         title: "Gulab Jamun",
         image: GulabJamun,
         description:
-          "Enjoy the sweetness of soft and succulent gulab jamuns, soaked in fragrant sugar syrup.",
+          "Gulab Jamun, a dessert loved by everyone, made with love using khoya & pure ghee, decorated with rose petals & nuts.",
+        price: { "1 piece": 13 },
       },
       {
         title: "Moong Daal Halwa",
@@ -90,7 +98,8 @@ export const products = [
         title: "Buttermilk",
         image: ButterMilk,
         description:
-          "Refresh yourself with a cool glass of buttermilk, perfect to beat the heat and quench your thirst.",
+          "Buttermilk, a creamy buttermilk served with some rock salt, mint, basil leaves and coriander.",
+        price: { "250ml": 40 },
       },
       {
         title: "Kashmiri Soda",
@@ -165,72 +174,3 @@ export const products = [
     ],
   },
 ];
-
-// export const products = [
-//   {
-//     id: 1,
-//     name: "Butter Milk",
-//     image: ButterMilk,
-//     description: "Delicious and refreshing butter milk.",
-//   },
-//   {
-//     id: 2,
-//     name: "Chicken Tikka",
-//     image: ChickenTikka,
-//     description: "Tender chicken tikka grilled to perfection.",
-//   },
-//   {
-//     id: 3,
-//     name: "Gulab Jamun",
-//     image: GulabJamun,
-//     description: "Soft and sweet gulab jamuns, a perfect dessert.",
-//   },
-//   {
-//     id: 4,
-//     name: "Gulab Jamun One",
-//     image: GulabJamunOne,
-//     description: "Single serving of gulab jamun, perfect for a quick treat.",
-//   },
-//   {
-//     id: 5,
-//     name: "Hyderabadi Chicken",
-//     image: HyderabadiChicken,
-//     description: "Spicy and flavorful Hyderabadi chicken dish.",
-//   },
-//   {
-//     id: 6,
-//     name: "Hyderabadi Veg",
-//     image: HyderabadiVeg,
-//     description: "Vegetarian version of the famous Hyderabadi dish.",
-//   },
-//   {
-//     id: 7,
-//     name: "Lucknowi Chicken",
-//     image: LucknowiChicken,
-//     description: "Succulent Lucknowi-style chicken, full of rich flavors.",
-//   },
-//   {
-//     id: 8,
-//     name: "Paneer Biryani",
-//     image: PaneerBiryani,
-//     description: "Aromatic and delicious paneer biryani, a vegetarian delight.",
-//   },
-//   {
-//     id: 9,
-//     name: "Paneer Tikka",
-//     image: PaneerTikka,
-//     description: "Grilled paneer tikka skewers, perfect for starters.",
-//   },
-//   {
-//     id: 10,
-//     name: "Shahi Chicken",
-//     image: ShahiChicken,
-//     description: "Royal and creamy Shahi chicken, fit for a king's feast.",
-//   },
-//   {
-//     id: 11,
-//     name: "Shahi Veg",
-//     image: ShahiVeg,
-//     description: "Regal and rich Shahi vegetable curry, fit for royalty.",
-//   },
-// ];

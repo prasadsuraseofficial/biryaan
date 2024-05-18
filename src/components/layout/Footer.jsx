@@ -85,16 +85,16 @@ export default function Footer() {
                 info@biryaan.in
               </a>
               <a
-                href="tel:1234567890"
+                href="tel:8459124200"
                 className="text-gray-300 hover:text-white transition duration-300"
               >
-                1234567890
+                +91-8459124200
               </a>
               <Link
-                to="/terms"
+                to="/"
                 className="text-gray-300 hover:text-white transition duration-300"
               >
-                Terms & Conditions
+                About Us
               </Link>
             </div>
           </div>
